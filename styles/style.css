@@ -1,0 +1,216 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --bg-nav: #F1F1F1;
+    --color-nav: #070707;
+
+    --bg-services: #fff;
+    --color-services: #070707;
+
+    --bg-portfolio: #f1f1f1;
+    --color-portfolio: #070707;
+
+    --bg-footer: #fff;
+    --color-footer: #070707;
+    --bg-footer-btn: #070707;
+    --color-footer-btn: #fff;
+    --color-footer-info: #828282;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header {
+    padding-top: 46px;;
+    background-color: var(--bg-nav);
+    color: var(--color-nav);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-title {
+    line-height: 32px;
+}
+
+.title-ellips {
+    padding-left: 4px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: flex-end;
+    line-height: 100%;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.navigation {
+    padding-bottom: 76px;
+}
+
+.navigation-element {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.navigation-element a {
+    color: var(--color-nav);
+}
+
+.hero {
+    background-color: var(--bg-nav);
+    color: var(--color-nav);
+}
+
+.hero-content {
+    display: flex;
+    column-gap: 176px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    margin-top: 200px;
+    height: 215px;
+    width: 500px;
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    margin-bottom: 20px;
+}
+
+.hero-info {
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hero-img {
+    width: 494px;
+    height: 613px;
+}
+
+.services {
+    background-color: var(--bg-services);
+    color: var(--color-services);
+    height: 288px;
+    margin: 90px 0;
+}
+
+.services-block {
+    display: flex;
+    column-gap: 30px;
+}
+
+.services-card {
+    width: 370px;
+    height: 228px;
+}
+
+.services-card-img {
+    size: 68px;
+    margin-bottom: 30px;
+}
+
+.services-card-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.services-card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.portfolio {
+    background-color: var(--bg-portfolio);
+    color: var(--color-portfolio);
+    height: 2172px;
+}
+
+.portfolio-title {
+    font-size: 34px;
+    font-weight: 600;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.portfolio-content {
+    text-align: center;
+}
+
+.portfolio-card {
+    margin-bottom: 90px;
+}
+
+.portfolio-img {
+    margin-bottom: 40px;
+}
+
+.portfolio-link {
+    color: var(--color-portfolio);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--bg-footer);
+    color: var(--color-footer);
+}
+
+.footer-title {
+    margin-top: 90px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.footer-text {
+    margin: 40px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-contacts {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    column-gap: 62px;
+    justify-content: center;
+}
+
+.footer-contacts img {
+    size: 40px;
+}
+
+.footer-info {
+    color: var(--color-footer-info);
+    padding-bottom: 90px;
+}
